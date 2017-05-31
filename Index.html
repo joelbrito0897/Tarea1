@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Cajero Web</title>
+        <meta name="author" content="Joel Brito">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="IndexStyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav class="AreaDeNavegacion">
+                <div class="BarraSuperior">
+                    <p class="TituloCajero">Cajero Web</p>
+                </div>
+            </nav>
+        </header>
+        <script>
+            function salir(){
+                var x;
+
+                x=confirm('Esta Seguro Que Desea Salir');
+               if (x==true){
+                window.close();}
+            }
+        </script>
+        <center>
+            <section class="Seccion1">
+                <div class="ContenedorSeccion1">
+                    <p class="TituloContenedor1">Bienvenido</p>
+                    <p class="SubtituloContenedor1">¿Desea Iniciar?</p>
+                    <a class="Enlace" href="Pag1.html"><button class="BotonInicio1"><p class="TextoBoton">Si</p></button></a>
+                    <a class="Enlace" href="Index.html" onclick="javascript: salir();"><button class="BotonInicio1"><p class="TextoBoton">No</p></button></a>   
+                </div>
+            </section>
+        </center>
+        <center>
+            <footer>
+                <section class="Footer">
+                    <div class="PieDePagina">
+                        <p class="TituloContenedor1">Desarrollador</p>
+                        <img class="Foto" src="Imagenes/Brito.png">
+                        <p class="SubtituloContenedor1">Joel Brito</p>
+                        <a class="Enlace" href="https://www.facebook.com/ollebrito"><button class="BotonSocial"><img class="IconoSocial" src="Icono/facebook.png"></button></a>
+                        <a class="Enlace" href="https://www.facebook.com/ollebrito"><button class="BotonSocial"><img class="IconoSocial" src="Icono/github.png"></button></a>
+                        <a class="Enlace" href="https://www.facebook.com/ollebrito"><button class="BotonSocial"><img class="IconoSocial" src="Icono/gmail.png"></button></a>
+                    </div>
+                </section>  
+            </footer>
+        </center>
+    </body>
+</html>
